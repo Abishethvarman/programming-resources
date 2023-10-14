@@ -17,10 +17,6 @@ As part of the Hacktoberfest event, we're excited to invite you to contribute to
 
 Our repository is more than just a collection of code and tutorials; it's a community of like-minded individuals who are passionate about programming. Engage in discussions, ask questions, and collaborate with fellow developers. Your contributions, whether big or small, are highly valued.
 
-📋 **How to Contribute** 📋
-
-Ready to get started with your Hacktoberfest journey? Check out our [CONTRIBUTING.md](link-to-contributing.md) guide to learn how to contribute, and explore the "Hacktoberfest" labeled issues to find the perfect task for you. Whether it's fixing a bug, adding new resources, improving documentation, or any other valuable contribution, we welcome your input!
-
 👏 **Acknowledgment and Rewards** 👏
 
 We deeply appreciate all our contributors and will feature your names in our README to recognize your valuable contributions. Moreover, if you complete the Hacktoberfest challenge with us, you'll receive a special shoutout and our heartfelt thanks.
@@ -45,7 +41,7 @@ Explore our issues, make your mark on open source, and embark on your journey to
 
 # How To Make Your First Pull Request
 
-Replace `<NAME Mentioned In Issue>` with your GitHub username in this guide.
+Replace `<name-of-the-issue>` with your GitHub username in this guide.
 
 
 
