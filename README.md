@@ -33,3 +33,19 @@ This repository is a dynamic space, constantly evolving with the help of the ope
 
 Explore our issues, make your mark on open source, and embark on your journey to becoming a better programmer. Your future in coding starts here!
 
+## INSTRUCTIONS-
+
+- Fork this Repository using the button at the top on right corner.
+- Clone your forked repository to your pc ( git clone "url from clone option.)
+- Create a new branch for your modifications (ie. `git branch name-of-the-issue` and check it out `git checkout name-of-the-issue` or simply do `git checkout -b name-of-the-issue`)
+- Look on the issues and do the needy contribution from your side
+- Add your files (`git add -A`), commit (`git commit -m "addressed name-of-the-issue"`) and push (`git push origin name-of-the-issue`)
+- Create a pull request
+- Star this repository
+
+# How To Make Your First Pull Request
+
+Replace `<NAME Mentioned In Issue>` with your GitHub username in this guide.
+
+
+
