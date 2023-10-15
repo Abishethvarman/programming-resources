@@ -1,3 +1,6 @@
+// Define a package named 'com.example'
+package com.example;
+
 /**
  * This class demonstrates how to work with arrays in Java.
  */
