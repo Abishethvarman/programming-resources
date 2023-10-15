@@ -4,7 +4,7 @@
 An array in Python is a data structure that holds a collection of elements or values. These elements are stored in a contiguous memory location, and each element can be accessed by an index. Arrays in Python are ordered, which means that the elements have a specific order, and you can access them by their position in the array. Python provides a built-in module called "array" to work with arrays.
 
 ## Explanation in Simple Terms:
-Think of an array like a row of boxes, where each box contains some data. You can think of the boxes as elements, and each box has a number on it, starting from 0. You can put different types of things (numbers, text, etc.) in each box. To find or use what's inside a box, you just need to know its number. So, an array is like a set of labeled boxes for storing and organizing your data.
+Think of an array like a row of boxes, where each box contains some data. You can think of the boxes as elements, and each box has a number on it, starting from 0. You can put different types of things (numbers, text, etc.) in each box. To find or use what's inside a box, you just need to know its number. So, an array is like a set of labeled boxes for storing and organizing your data .
 
 
 ## Code-Related Explanation
