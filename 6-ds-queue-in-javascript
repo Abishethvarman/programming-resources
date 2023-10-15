@@ -1,0 +1,22 @@
+JavaScript Data Structure: Queue
+
+Definition
+In computer science, a queue is a fundamental data structure used to store and manage a collection of elements. It follows the First-In-First-Out (FIFO) principle, meaning the element that is added first will be the first to be removed.
+
+Explanation in Simple Terms
+Imagine a line at a bus stop. The first person to arrive gets on the bus first. When a new person comes, they stand at the end of the line. The bus picks up people from the front of the line, just like how a queue works in programming!
+
+Code-Related Explanation
+In JavaScript, you can implement a queue using an array or by creating a custom queue class. Here's a simple example using an array:
+
+const queue = [];
+
+// Enqueue (adding elements to the end of the queue)
+queue.push('first');
+queue.push('second');
+queue.push('third');
+
+// Dequeue (removing the first element from the queue)
+const dequeuedElement = queue.shift();
+console.log('Dequeued element:', dequeuedElement);
+
