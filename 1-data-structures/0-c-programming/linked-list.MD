@@ -64,3 +64,6 @@ int main() {
     return 0;
 }
 ```
+In this code, we've created a linked list with three nodes, each holding an integer value. The next pointer connects the nodes, and we traverse the list to print its contents.
+
+This is a basic example of a linked list in C, and real-world applications can be more complex. Linked lists are versatile and are used to implement data structures like stacks, queues, and dynamic memory allocation.
