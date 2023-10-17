@@ -1,5 +1,10 @@
 Selection sort is a simple sorting algorithm that works by repeatedly selecting the minimum (or maximum) element from an unsorted portion of the array and moving it to its correct position in the sorted part of the array. It continues this process until the entire array is sorted. Selection sort has a time complexity of O(n^2), which makes it less efficient than more advanced sorting algorithms for larger datasets.
 
+# simple term
+Selection sort is a simple sorting algorithm in Java that works by repeatedly selecting the minimum element from an unsorted portion of an array and moving it to the beginning.
+
+
+
 public class SelectionSort {
 
     public static void main(String[] args) {
