@@ -1,7 +1,7 @@
-#Definition
+# Definition
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It works by taking an unsorted element from the input list and inserting it into its correct position within the already sorted part of the list. This process is repeated until all elements are in their proper places.
 
-##Code related explanation.
+## Code related explanation.
 public class InsertionSort {
 
     public static void main(String[] args) {
