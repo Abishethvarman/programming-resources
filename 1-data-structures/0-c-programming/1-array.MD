@@ -1,12 +1,12 @@
-C Data Structure: Array
+# C Data Structure: Array
 
-Definition
+## Definition
 In C programming, an array is a collection of elements, each identified by an index or a key. The elements in an array are stored in contiguous memory locations. It is a fundamental and widely used data structure to store a fixed-size sequential collection of elements of the same type.
 
-Explanation in Simple Terms
+## Explanation in Simple Terms
 Imagine an array like a row of pigeonholes or compartments in a post office. Each pigeonhole has a unique number, and you can place an item in each pigeonhole. You can retrieve an item by telling the postmaster the number (index) of the pigeonhole. Just like this, an array allows you to store and organize several pieces of data (elements) with unique "numbers" (indices).
 
-Code-Related Explanation
+## Code-Related Explanation
 Here's how you can declare and work with an array in C:
 
 #include <stdio.h>
