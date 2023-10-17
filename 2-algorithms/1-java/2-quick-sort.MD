@@ -6,6 +6,8 @@ Quick sort is a widely used sorting algorithm in Java and other programming lang
 
 
 ## Code explanation
+
+
 public class QuickSort {
 
     public static void main(String[] args) {
@@ -47,3 +49,6 @@ public class QuickSort {
         return i + 1;
     }
 }
+
+
+
