@@ -1,4 +1,4 @@
-#Data Structure stack in Java
+# Data Structure stack in Java
 
 ## Definition
 In programming, a stack is a fundamental data structure that follows the Last-In-First-Out (LIFO) principle. It's like a stack of plates where the last plate you put on the stack is the first one to be removed. Elements can be added (pushed) or removed (popped) from the top of the stack.
