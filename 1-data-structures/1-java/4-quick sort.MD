@@ -1,5 +1,10 @@
 Quick sort is a popular sorting algorithm in computer science that uses a divide-and-conquer approach to sort a list of elements. It works by selecting a "pivot" element from the list and then partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. This process is then applied recursively to the sub-arrays until the entire list is sorted.
 
+# simple terms
+Quick sort is a widely used sorting algorithm in Java and other programming languages. It works by selecting a "pivot" element from the array and rearranging the elements in the array so that elements less than the pivot come before it, and elements greater than the pivot come after it. 
+
+
+
 public class QuickSort {
 
     public static void main(String[] args) {
