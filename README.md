@@ -43,5 +43,8 @@ Explore our issues, make your mark on open source, and embark on your journey to
 
 Replace `<name-of-the-issue>` with your GitHub username in this guide.
 
+## Contributors ✨
+Thanks goes to these wonderful people 
+https://github.com/Abishethvarman/programming-resources/graphs/contributors 
 
 
