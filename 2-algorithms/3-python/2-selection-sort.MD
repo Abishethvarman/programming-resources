@@ -1,6 +1,10 @@
-#definition
+# Selection Sort in Python
+
+## definition
 Selection Sort is a simple sorting algorithm that works by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning. The algorithm maintains two sub-arrays: one that is sorted and the other that is unsorted. The sorted sub-array is built up from left to right.
 
+
+## Code level explanation
 def selection_sort(arr):
     n = len(arr)
 
