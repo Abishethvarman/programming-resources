@@ -1,6 +1,8 @@
-Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the entire list is sorted.
+# Bubble sort 
 
-# simple term 
+## Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the entire list is sorted.
+
+## simple term 
 Start at the beginning of the list.
 Compare the first two elements. If the first one is larger than the second one, swap them.
 Move to the next pair of elements and repeat the comparison and swap if necessary.
@@ -8,7 +10,7 @@ Continue this process until you reach the end of the list.
 This completes one pass. Start again from the beginning of the list, but this time, ignore the last element (since it's already in its correct place).
 Repeat steps 2-5 until no more swaps are needed. The list is now sorted.
 
-# saple code
+## sample code
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {64, 34, 25, 12, 22, 11, 90};
