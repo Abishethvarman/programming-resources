@@ -1,50 +1,43 @@
+Definition:
 
-**Welcome to the Programming Resources Repository! 🚀**
+Quick Sort is a sorting algorithm that follows the divide-and-conquer strategy to efficiently sort an array or list of elements. It works by selecting a "pivot" element from the array and then rearranging the other elements into two sub-arrays – one with elements less than the pivot and another with elements greater than the pivot. This process is performed recursively until the entire array is sorted.
 
-🌟 *Participate, Contribute, and Learn in the World of Open Source* 🌟
+Explanation in Simple Terms:
 
-Are you a programming enthusiast looking to boost your skills and get involved in the exciting world of open source? You've come to the right place! This repository serves as a hub for programmers of all levels, providing a diverse collection of resources, tools, and projects to help you excel in your coding journey.
+Choose a Pivot: 
 
-📚 **Resource Diversity** 📚
+The algorithm starts by selecting a pivot element from the array. The choice of the pivot can vary, but in this code, it's the last element.
 
-We've assembled a wide array of programming resources, including tutorials, articles, videos, sample code, and more, covering a vast spectrum of languages, frameworks, and technologies. Whether you're a novice or a seasoned developer, you'll find something valuable here to enhance your knowledge and proficiency.
+Partitioning: 
 
-🎉 **Hacktoberfest Celebration** 🎉
+The array is then partitioned into two parts. Elements smaller than the pivot are moved to the left, and elements greater than the pivot are moved to the right. The pivot itself is now in its correct sorted position.
 
-As part of the Hacktoberfest event, we're excited to invite you to contribute to this repository. Hacktoberfest is all about giving back to the open source community, and we've set up a range of exciting issues for you to dive into. Contribute to this repository and earn your limited-edition Hacktoberfest swag while making a real impact in the open source world.
+Recursion:
 
-🤝 **Join the Community** 🤝
+The same partitioning process is applied to the sub-arrays created on the left and right of the pivot. This continues until the sub-arrays are so small that they don't need further partitioning.
 
-Our repository is more than just a collection of code and tutorials; it's a community of like-minded individuals who are passionate about programming. Engage in discussions, ask questions, and collaborate with fellow developers. Your contributions, whether big or small, are highly valued.
+Combining: 
 
-👏 **Acknowledgment and Rewards** 👏
+The sorted sub-arrays are combined to get the final sorted array.
 
-We deeply appreciate all our contributors and will feature your names in our README to recognize your valuable contributions. Moreover, if you complete the Hacktoberfest challenge with us, you'll receive a special shoutout and our heartfelt thanks.
+Code-Related Explanation:
 
-🚀 **Let's Grow Together** 🚀
+1. The swap function is used to swap two elements in an array. It's a simple utility function for swapping elements by reference.
 
-This repository is a dynamic space, constantly evolving with the help of the open source community. We're excited to have you on board, and together, we can create a valuable resource for programmers worldwide. Join us in celebrating Hacktoberfest, contributing to open source, and enhancing your coding skills. The possibilities are limitless, and we can't wait to see what you bring to the table.
+2. The partition function takes an array, a low index, and a high index as input. It chooses a pivot, rearranges the array based on the pivot, and returns the index of the pivot element in its final sorted position.
 
-👇 **Get Started Now** 👇
+3. The quickSort function is where the recursion happens. It sorts the sub-arrays created by the partition function by calling itself on the left and right sub-arrays.
 
-Explore our issues, make your mark on open source, and embark on your journey to becoming a better programmer. Your future in coding starts here!
+4. In the main function, it first takes the number of elements and the elements themselves as input from the user. Then, it calls quickSort to sort the array and prints the sorted result.
 
-## INSTRUCTIONS-
+QuickSort Algorithm :
 
-- Fork this Repository using the button at the top on right corner.
-- Clone your forked repository to your pc ( git clone "url from clone option.)
-- Create a new branch for your modifications (ie. `git branch name-of-the-issue` and check it out `git checkout name-of-the-issue` or simply do `git checkout -b name-of-the-issue`)
-- Look on the issues and do the needy contribution from your side
-- Add your files (`git add -A`), commit (`git commit -m "addressed name-of-the-issue"`) and push (`git push origin name-of-the-issue`)
-- Create a pull request
-- Star this repository
+1. Start with an unsorted array.
 
-# How To Make Your First Pull Request
+2. Select a pivot element from the array. In your code, the pivot is chosen as the last element, arr[high].
 
-Replace `<name-of-the-issue>` with your GitHub username in this guide.
+3. Partition the array into two sub-arrays: one with elements less than the pivot and another with elements greater than the pivot. This is done in the partition function.
 
-## Contributors ✨
-Thanks goes to these wonderful people 
-https://github.com/Abishethvarman/programming-resources/graphs/contributors 
-
-
+4. Recursively apply the Quick Sort algorithm to the sub-arrays created in step 3. The sorting of sub-arrays happens in the quickSort function.
+Continue partitioning and sorting recursively until the sub-arrays are so small that they don't need further partitioning (i.e., when low >= high).
+Combine the sorted sub-arrays to get the final sorted array.
