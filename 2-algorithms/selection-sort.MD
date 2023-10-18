@@ -1,13 +1,15 @@
 # Selection sort in java
+
+## Definition
 Selection sort is a simple comparison-based sorting algorithm. It works by dividing the input list into two parts: the sorted portion and the unsorted portion. Initially, the sorted portion is empty, and the unsorted portion contains the entire list. The algorithm repeatedly selects the smallest (or largest, depending on the desired sorting order) element from the unsorted portion and moves it to the end of the sorted portion.
 
-## simple term
+## Simple term
 Find the smallest element in the unsorted portion of the list.
 Swap it with the first element in the unsorted portion (which becomes part of the sorted portion).
 Expand the sorted portion to include the newly added element.
 Repeat steps 1-3 until the entire list is sorted.
 
-## sample code
+## Sample code
 public class SelectionSort {
     public static void selectionSort(int[] arr) {
         int n = arr.length;
