@@ -1,10 +1,13 @@
+# Merge sort in Java
+
+## Definition
 The key idea is to break the problem into smaller, more manageable pieces (divide and conquer) and then combine the solutions of those smaller pieces to get the final result. This sorting algorithm is efficient and has a time complexity of O(n*log(n)), making it suitable for sorting large datasets.
 
-#simple definition
+## simple definition
 Merge sort is a popular sorting algorithm that uses the divide-and-conquer strategy to efficiently sort an array. 
 
 
-#sample code
+## sample code
 public class MergeSort {
     public static void main(String[] args) {
         int[] array = {12, 11, 13, 5, 6, 7};
