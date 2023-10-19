@@ -1,10 +1,10 @@
-QUICKSORT IN  C PROGRAMMING :
+# QUICKSORT IN  C PROGRAMMING :
 
-DEFINITION :
+## DEFINITION :
 
 Quick Sort is a sorting algorithm that follows the divide-and-conquer strategy to efficiently sort an array or list of elements. It works by selecting a "pivot" element from the array and then rearranging the other elements into two sub-arrays – one with elements less than the pivot and another with elements greater than the pivot. This process is performed recursively until the entire array is sorted.
 
-EXPLAINATION IN SIMPLE TERMS :
+## EXPLAINATION IN SIMPLE TERMS :
 
 Choose a Pivot: 
 
@@ -44,7 +44,7 @@ QUICKSORT ALGORITHM :
 Continue partitioning and sorting recursively until the sub-arrays are so small that they don't need further partitioning (i.e., when low >= high).
 
 
-QUICK SORT C PROGRAMMING CODE :
+## QUICK SORT C PROGRAMMING CODE :
 
 #include <conio.h>
 
