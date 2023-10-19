@@ -46,4 +46,19 @@ arr = [38, 27, 43, 3, 9, 82, 10]
 print("Unsorted array:", arr)
 merge_sort(arr)
 print("Sorted array:", arr)
+```
 
+### Explanation
+The merge_sort function recursively divides the input array arr into smaller halves until each sub-array contains only one or zero elements. Then, it merges these smaller sub-arrays in a sorted manner.
+
+The algorithm finds the middle of the array and splits it into left_half and right_half.
+
+Both halves are sorted individually using recursive calls to merge_sort.
+
+The sorted halves are then merged back into the original array arr.
+
+The i, j, and k pointers are used to track the elements being compared and merged.
+
+Finally, the sorted and merged array is available in arr.
+
+The example usage at the end demonstrates how to use the merge_sort function to sort a list of numbers, and the sorted array is printed to the console.
