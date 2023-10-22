@@ -14,8 +14,7 @@ Merge sort is a popular and efficient sorting algorithm that follows the divide-
 #include <stdio.h>
 #include <stdlib.h>
 
-// Function to merge two subarrays of arr[].
-// The first subarray is arr[l..m], and the second subarray is arr[m+1..r].
+
 void merge(int arr[], int l, int m, int r) {
     int i, j, k;
     int n1 = m - l + 1;
@@ -65,12 +64,9 @@ void merge(int arr[], int l, int m, int r) {
     free(L);
     free(R);
 }
-
-// Recursive function to perform merge sort on the array arr[l..r].
-
 void mergeSort(int arr[], int l, int r) {
     if (l < r) {
-        // Same as (l+r)/2, but avoids overflow for large l and r.
+        
         int m = l + (r - l) / 2;
 
         // Sort the first and second halves.
