@@ -1,5 +1,3 @@
-Certainly! Here's a README file for the Quick Sort algorithm in JavaScript:
-
 # Quick Sort in JavaScript
 
 ## Definition
