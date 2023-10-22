@@ -9,7 +9,7 @@ Merge sort is a popular and efficient sorting algorithm that follows the divide-
 
 */
 
-/*Merge Sort Source code  */
+/* ### Merge Sort Source code  */
 
 #include <stdio.h>
 #include <stdlib.h>
