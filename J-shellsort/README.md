@@ -1,10 +1,12 @@
 # 🐚 SHELL SORT 🐚
+
 # DEFINITION 🥇
 
 **Shell sort**, also known as Shell's method or the diminishing increment sort, is an in-place comparison-based sorting algorithm. It is an extension of the insertion sort algorithm that divides the original list into smaller sublists or "shells" by using a gap sequence. 
 These sublists are then sorted using insertion sort. The gap sequence starts with a relatively large gap and progressively reduces the gap size in subsequent iterations until the list is mostly sorted.
 
 # 💡EXPLANATION 💡
+
 1. **Choose a Gap Sequence :** First, you select a gap sequence. This sequence determines the gaps (spaces between elements) to be used during the sorting process. Common sequences include the Knuth sequence, Sedgewick sequence, or Hibbard sequence.
 
 2. **Initialize the Gap :** Start with the largest gap determined by your chosen gap sequence.
