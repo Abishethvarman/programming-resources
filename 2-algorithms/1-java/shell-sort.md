@@ -1,4 +1,6 @@
+
 # 🐚 SHELL SORT 🐚
+
 # DEFINITION 🥇
 
 **Shell sort**, also known as Shell's method or the diminishing increment sort, is an in-place comparison-based sorting algorithm. It is an extension of the insertion sort algorithm that divides the original list into smaller sublists or "shells" by using a gap sequence. 
