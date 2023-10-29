@@ -8,7 +8,7 @@ Jump search does lower number searches as compared to linear search. The Jump Se
 
 ## Code Related Explanation
 ```javascript
-function jump_Search(nums, item) {
+function jumpSearch(nums, item) {
     const length = nums.length;
 
     // Finding block size to be jumped 
@@ -52,7 +52,7 @@ const nums = [2, 1, 7, 13, 0, 11, 6, 5, 8, 9, 10, 11, 12];
 let item = 9;
 // let item = 15; // Example of item not found in the array
 
-let position = jump_Search(nums, item);
+let position = jumpSearch(nums, item);
 
 if (position != -1) {
     console.log("Number '" + item + "' is at index " + position);
